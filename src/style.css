@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .btn{
+        @apply rounded-md px-3 py-2 shadow-[5px_5px_0px_0px] outline outline-1
+    }
+    
+}
