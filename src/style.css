@@ -1,10 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer utilities {
     .btn{
-        @apply rounded-md px-3 py-2 shadow-[5px_5px_0px_0px] outline outline-1
+        @apply rounded-md px-3 py-2 shadow-[5px_5px_0px_0px] outline outline-1 active:scale-75 transition-all duration-300
+    }
+    .todo-item{
+        @apply px-3 py-2 rounded-md outline outline-1 outline-slate-400
     }
     
+}
+*{
+    font-family: 'Onest', sans-serif;
 }
