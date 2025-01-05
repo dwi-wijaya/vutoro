@@ -1,7 +1,50 @@
-# Vue 3 + Vite
+# VueTodo App
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**VueTodo** is a simple task management application built using **Vue.js** and styled with **Tailwind CSS**. This project was created as part of my learning journey in Vue.js development.
 
-## Recommended IDE Setup
+## Features
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- Add, edit, and delete tasks.
+- Mark tasks as complete or incomplete.
+- Clean and intuitive user interface.
+- Responsive design for better usability on different devices.
+
+## Technologies Used
+
+- **Vue.js**: Frontend framework for building interactive user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Vite**: Development environment for fast builds.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dwiwijaya/vuetodo.git
+   cd vuetodo
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+4. Open the app in your browser at `http://localhost:5173`.
+
+## Usage
+
+- Add new tasks using the input field.
+- Manage your task list with intuitive controls.
+- Explore the code to understand the use of Vue.js features like components, directives, and reactive state.
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+
+
+Feel free to fork and contribute! 😊
